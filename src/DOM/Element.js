@@ -192,7 +192,7 @@ exports.querySelector = function(target) {
             if(result == null) {
                 return new Maybe.Nothing();
             } else {
-                return new Maybe.Just(parent);
+                return new Maybe.Just(result);
             }
         };
     };
