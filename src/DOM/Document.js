@@ -1,7 +1,7 @@
 "use strict";
 
 // var Maybe = require("../Maybe");
-var Maybe = PS.Maybe;
+var Maybe = PS.Data.Maybe;
 
 exports.body = function() {
     var result = document.body;
