@@ -1,11 +1,11 @@
 {
   "name": "purescript-sawmill",
-  "homepage": "https://github.com/purescript/purescript-prelude",
-  "description": "The PureScript Prelude",
+  "homepage": "https://github.com/WorkJett/purescript-sawmill",
+  "description": "Dom manipulation library",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/purescript/purescript-prelude.git"
+    "url": "git://github.com/WorkJett/purescript-sawmill.git"
   },
   "ignore": [
     "**/.*",
@@ -17,6 +17,8 @@
     "package.json"
   ],
   "dependencies": {
-    "purescript-prelude": "^2.1.0"
+    "purescript-prelude": "latest",
+    "purescript-maybe": "latest",
+    "purescript-eff": "^2.0.0"
   }
 }
