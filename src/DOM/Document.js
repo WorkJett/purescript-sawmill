@@ -1,6 +1,7 @@
 "use strict";
 
-var Maybe = require("../Maybe");
+// var Maybe = require("../Maybe");
+var Maybe = PS.Maybe;
 
 exports.body = function() {
     var result = document.body;
