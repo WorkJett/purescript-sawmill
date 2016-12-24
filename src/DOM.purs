@@ -3,6 +3,7 @@ module Sawmill.DOM
     , module Sawmill.DOM.Types
     , module Sawmill.DOM.Element
     , module Sawmill.DOM.Event
+    , module Sawmill.DOM.Document
     ) where
 
 import Sawmill.DOM.Eff (DOM)
@@ -13,3 +14,4 @@ import Sawmill.DOM.Element (addEventListener, removeEventListener, dispatchEvent
     , querySelector, querySelectorAll)
 import Sawmill.DOM.Event (bubbles, cancelable, currentTarget, defaultPrevented, eventPhase, target, timeStamp, eventType,
     createEvent, isTrusted, preventDefault, stopPropagation)
+import Sawmill.DOM.Document (body, docAddEventListener, docRemoveEventListener, docDispatchEvent)
