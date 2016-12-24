@@ -1,7 +1,7 @@
 "use strict";
 
 // var Maybe = require("../Maybe");
-var Maybe = PS.Data.Maybe;
+var Maybe = PS["Data.Maybe"];
 
 exports.addEventListener = function (target) {
     return function(type) {
