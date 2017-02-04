@@ -19,6 +19,6 @@
   "dependencies": {
     "purescript-prelude": "latest",
     "purescript-maybe": "latest",
-    "purescript-eff": "^2.0.0"
+    "purescript-eff": "latest"
   }
 }

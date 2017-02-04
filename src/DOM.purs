@@ -14,4 +14,4 @@ import Sawmill.DOM.Element (addEventListener, removeEventListener, dispatchEvent
     , querySelector, querySelectorAll)
 import Sawmill.DOM.Event (bubbles, cancelable, currentTarget, defaultPrevented, eventPhase, target, timeStamp, eventType,
     createEvent, isTrusted, preventDefault, stopPropagation)
-import Sawmill.DOM.Document (body, docAddEventListener, docRemoveEventListener, docDispatchEvent)
+import Sawmill.DOM.Document (body)
